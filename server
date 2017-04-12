@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd public
+exec livereloadx -s -p 9292 "$PWD"

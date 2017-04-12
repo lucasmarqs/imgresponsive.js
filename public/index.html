@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Responsive Images!</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <style type="text/css" media="all">
+      body { margin-top: 30px; }
+      img.imgresponsive {
+        display: block;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='markup'>
+      <div class='view-container container'>
+        <div>
+        <figure>
+          <img src="images/loading.jpg" class='imgresponsive'
+            data-img-lg="images/image-hashid.large.jpg"
+            data-img-md="images/image-hashid.medium.jpg"
+            data-img-sm="images/image-hashid.small.jpg" />
+
+          <figcaption>Big Image 571.0 KB (1600x1067 pixels) <a href="https://www.flickr.com/photos/dataichi/7285130978/in/feed">source Flickr</a></figcaption>
+        </figure>
+        </div>
+
+        <div>
+        <figure>
+          <img src="images/loading.jpg" class='imgresponsive'
+            data-img-lg="images/image-hashid.large.jpg"
+            data-img-md="images/image-hashid.medium.jpg"
+            data-img-sm="images/image-hashid.small.jpg" />
+
+          <figcaption>Big Image 571.0 KB (1600x1067 pixels) <a href="https://www.flickr.com/photos/dataichi/7285130978/in/feed">source Flickr</a></figcaption>
+        </figure>
+        </div>
+      </div>
+    </div>
+
+    <script src='/imgresponsive.js'></script>
+  </body>
+</html>
